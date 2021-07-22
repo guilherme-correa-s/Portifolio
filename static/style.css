@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 * {
    margin: 0;
@@ -10,9 +10,9 @@ html, body{
    scroll-behavior: smooth;
 }
 
-/* Comentario */
+
 nav{
-   background-color: #3359ec;
+   background-color:#800e13;
    font-weight: 500;
    position: fixed;
    width: 100%;
@@ -40,25 +40,22 @@ header{
    padding: 3rem;
 }
 
-header div#img-rocket {
-   display: flex;
-   justify-content: center;
-}
 
 header div p{
    font-size: 2vw;
    font-weight: 700;
-   color: #3359ec;
+   color:#2c0000;
+   padding: 3rem;
 }
 
 header div span{
    font-size: 1vw;
    font-weight: 500;
-   color: #0066ff;
+   color:black;
 }
-
-header div#img-rocket img{
-   width: 60%;
+ header div p span{
+   background-color:#800e13;
+   
 }
 
 section#sobre-mim{
@@ -66,7 +63,7 @@ section#sobre-mim{
    justify-content: center;
    align-items: center;
    padding: 4rem;
-   background-color: #3359ec;
+   background-color:#800e13;
 }
 
 
@@ -75,6 +72,7 @@ section#sobre-mim div img{
    border-radius: 50%;
    display: block;
    margin: auto;
+   background-color: #2c0000;
 }
 
 section#sobre-mim div p{
@@ -116,9 +114,9 @@ section#projetos div{
 }
 
 section#projetos div button{
-   border: 1px solid #3359ec;
+   border: 1px solid#800e13;
    background-color: #fff;
-   color: #3359ec;
+   color:#800e13;
    padding: 1rem;
    font-size: .8vw;
    font-weight: 600;
@@ -131,7 +129,7 @@ section#projetos div button{
 }
 
 section#projetos div button:hover{
-   background-color: #3359ec;
+   background-color: #800e13;
    color: #fff;
    transform: scale(1.2);
 }
@@ -155,12 +153,12 @@ section#habilidades p{
 
 section#habilidades div{
    display: flex;
-   border: 1px solid #3359ec;
+   border: 1px solid #800e13;
    border-radius: 1rem;
 }
 
 section#habilidades div span#python{
-   background-color: #3359ec;
+   background-color:#800e13;
    color: #fff;
    text-align: center;
    padding: .3rem;
@@ -169,7 +167,7 @@ section#habilidades div span#python{
 }
 
 section#habilidades div span#html{
-   background-color: #3359ec;
+   background-color:#800e13;
    color: #fff;
    text-align: center;
    padding: .3rem;
@@ -178,7 +176,7 @@ section#habilidades div span#html{
 }
 
 section#habilidades div span#css{
-   background-color: #3359ec;
+   background-color:#800e13;
    color: #fff;
    text-align: center;
    padding: .3rem;
@@ -186,7 +184,14 @@ section#habilidades div span#css{
    width: 30%;
 }
 
-
+section#idiomas div span#Ingles{
+   background-color:#800e13;
+   color: #fff;
+   text-align: center;
+   padding: .3rem;
+   border-radius: 1rem;
+   width: 80%;
+}
 /* Seção de contato */
 
 section#contato {
@@ -213,7 +218,7 @@ section#contato div#redes div#icons{
 
 section#contato div#redes div#icons a{
    text-decoration: none; /* Tira o sublinhado e toda decoração de texto do link */
-   color: #0066ff;
+   color:#800e13;
    font-size: 4rem;
    padding: 2rem;
    transition: all .4s ease-out; /*  Suavisa a transição de cores no hover */
@@ -221,7 +226,7 @@ section#contato div#redes div#icons a{
 
 /* o :hover serve para quando passar o mouse por cima do elemento fazer algo */
 section#contato div#redes div#icons a:hover{
-   color: #71aaff;
+   color:#800e13;
 }
 
 section#contato div#redes div#icons a i{
@@ -250,7 +255,7 @@ section#contato div#form form{
    width: 50%;
 }
 
-/* A virgula serve para estilizar dois elementos ao mesmo tempo */
+
 section#contato div#form form input, textarea{
    width: 100%;
    padding: .5rem;
@@ -266,9 +271,9 @@ section#contato div#form form label{
 }
 
 section#contato div#form form button{
-   border: 1px solid #3359ec;
+   border: 1px solid #800e13;
    background-color: #fff;
-   color: #3359ec;
+   color:#800e13;
    padding: 1rem;
    font-size: .8vw;
    font-weight: 600;
@@ -281,7 +286,7 @@ section#contato div#form form button{
 }
 
 section#contato div#form form button:hover{
-   background-color: #3359ec;
+   background-color:#800e13;
    color: #fff;
    transform: scale(1.2);
 }
